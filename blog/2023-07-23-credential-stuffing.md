@@ -38,4 +38,4 @@ NexusUVC stands for Nexus User Verification Challenge, our in-house CAPTCHA is a
 
 NexusUVC will **stop** the automated bot in its tracks at point of entry. So that even if that bot ends up having the correct password, it will not be able to pass the CAPTCHA, giving your website the security it deserves.
 
-Discover NexusUVC today, and get started for entirely free: https://nexuspipe.com/uvc 👈
+Discover NexusUVC today, and get started for entirely free: [nexuspipe.com/uvc](https://nexuspipe.com/uvc) 👈
