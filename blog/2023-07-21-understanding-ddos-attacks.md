@@ -49,7 +49,7 @@ In summary, while both DoS and DDoS attacks aim to disrupt and deny service, DDo
 DDoS attacks can be categorised into several types, each with its unique method and impact:
 
 ### Volume-Based Attacks
-Volume-based attacks are a common form of DDoS attack that aims to overwhelm the bandwidth of a target website by flooding it with a massive volume of traffic. This large volume of traffic consumes all of the business's bandwidth, making all of its resources unavailable. Two prime examples of such an attack would be ICMP floods and UDP floods.
+Volume-based attacks are a common form of DDoS attack that aims to overwhelm the bandwidth of a target website by flooding it with a massive volume of traffic. This large volume of traffic consumes all of the business's bandwidth, making all of its resources unavailable. Two prime examples of such an attack would be TCP and UDP floods.
 
 These attacks are often carried out using botnets, which are networks of compromised computers controlled by an attacker. The botnet can generate an enormous amount of traffic, directed at the target, to create a flood.
 
