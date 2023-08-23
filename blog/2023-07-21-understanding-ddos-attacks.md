@@ -5,7 +5,7 @@ authors: [erdit, expo]
 tags: [protection,ddos]
 ---
 
-[![Understanding DDoS Attacks](/img/cards/understandingddos.png)](https://blog.nexuspipe.com/credential-stuffing/)
+[![Understanding DDoS Attacks](/img/cards/understandingddos.png)](https://blog.nexuspipe.com/understanding-ddos-attacks/)
 
 ## Introduction
 
