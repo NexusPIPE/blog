@@ -10,6 +10,7 @@ const rngStrings = {
     '🚀 Get started with NexusPIPE today! 🚀',
     '🚀 NexusPIPE: Where Security Meets Innovation – Try Us Today! 🚀',
     '🚀 Let\'s CAPTCHA - ture the future together! 🚀',
+    '🚀 CAPTCHA Your Peace of Mind with NexusPIPE Today! 🚀',
   ]
 }
 
