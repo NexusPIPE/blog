@@ -1,6 +1,6 @@
 ---
 slug: credential-stuffing
-title: Credential Stuffing: How NexusUVC Stops It
+title: 'Credential Stuffing: How NexusUVC Stops It'
 authors: [erdit] 
 tags: [protection, nexusuvc, captcha]
 ---
@@ -36,6 +36,6 @@ If one of these sources has a password for, lets say, a social media account - t
 
 NexusUVC stands for Nexus User Verification Challenge, our in-house CAPTCHA is a big part of our user verification challenge and it stands as a robust defence against the threat of credential stuffing.
 
-NexusUVC will **stop** the automated bot in its tracks at point of entry. So that even if that bot ends up having the correct password, it will not be able to pass the CAPTCHA. Giving your website the security it deserves.
+NexusUVC will **stop** the automated bot in its tracks at point of entry. So that even if that bot ends up having the correct password, it will not be able to pass the CAPTCHA, giving your website the security it deserves.
 
 Discover NexusUVC today, and get started for entirely free: https://nexuspipe.com/uvc 👈
