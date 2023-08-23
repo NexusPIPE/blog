@@ -7,7 +7,7 @@ tags: [protection, nexusuvc, captcha]
 
 [![Credential Stuffing and how NexusPIPE stop it](/img/cards/credentialstuffing.png)](https://blog.nexuspipe.com/credential-stuffing/)
 
-# Introduction
+## Introduction
 The digital world is ever-growing, and the battle for security is a relentless chase, a constant struggle between protection and intrusion. As swiftly as technology grows, so do the number of cyber threats. Whether it's an individual or a global enterprise, the threats are real, and often hidden, ready to strike when least expected.
 
 <!--truncate-->
@@ -21,7 +21,7 @@ However, these attackers don't type these credentials out by hand, one by one, a
 
 While it is possible for a website to use IP and location detection tools to attempt to prevent credential stuffing, it is not a sure fire way to do so. Attackers often use proxies to mask their geographical location and IP address. Nowadays, some attackers utilise AI-driven tools to make it seem as if thousands of users are trying to log in at different times of the day from all over the world. Now that makes a challenge!
 
-## Where do they get these passwords from?
+### Where do they get these passwords from?
 The success of a "credential stuffer" relies heavily on the availability of valid usernames and passwords. They can obtain these through many sources that are often interconnected - as an example:
 
 1. **Data Breaches**: Large-scale data breaches are a goldmine for attackers. When companies suffer a breach, user credentials can be exposed and subsequently sold or shared on the dark web.
