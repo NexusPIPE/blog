@@ -136,7 +136,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NexusPIPE. Licensed under the MIT License.<br/>Want dedicated help? <a href="https://nexuspipe.com/contact">Contact Us</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} NexusPIPE. Licensed under the <a href="https://github.com/NexusPIPE/blog/blob/master/LICENSE">MIT License</a>.<br/>Want dedicated help? <a href="https://nexuspipe.com/contact">Contact Us</a>`,
       },
       prism: {
         theme: darkCodeTheme,

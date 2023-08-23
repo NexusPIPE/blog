@@ -13,7 +13,10 @@ export default function TagsListInline({ tags }) {
         Check out other posts tagged with
       </span>
       <span className='variant-snippet'>
-        This article is tagged with:
+        <b>
+          Want more like this?
+        </b><br />
+        Find other articles tagged with
       </span>
       <ul className={clsx(styles.tags, 'padding--none', 'margin-left--sm', 'thefunnyul')}>
         {tags.map(({ label, permalink: tagPermalink }) => (
