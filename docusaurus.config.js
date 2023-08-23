@@ -58,7 +58,8 @@ const config = {
       // Replace with your project's social card
       image: 'img/blog-social.png',
       announcementBar: {
-        content: '🚧 This is under construction 🚧',
+        // content: '🚧 This is under construction 🚧',
+        content: 'get-started-str-rng',//getStartedStrings[Math.floor(Math.random() * getStartedStrings.length)],
         backgroundColor: '#1a1a1a3a',
         textColor: '#c9c9c9',
         id: 'getstarted-bar-1',
