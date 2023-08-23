@@ -8,7 +8,8 @@ const rngStrings = {
   'get-started-str-rng': [
     '🚀 Secure your site with NexusPIPE today! 🚀',
     '🚀 Get started with NexusPIPE today! 🚀',
-    '🚀 NexusPIPE: Where Security Meets Innovation – Try Us Today! 🚀'
+    '🚀 NexusPIPE: Where Security Meets Innovation – Try Us Today! 🚀',
+    '🚀 Let\'s CAPTCHA - ture the future together! 🚀',
   ]
 }
 
