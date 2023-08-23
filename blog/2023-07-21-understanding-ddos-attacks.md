@@ -19,7 +19,7 @@ DDoS attacks can cripple websites, disrupt services, and lead to substantial fin
 
 A DDoS attack, short for Distributed Denial of Service, is a malicious attempt to disrupt the normal functioning of a targeted server, service or network (e.g. naming servers or caching servers) by overwhelming it with a flood of internet traffic. This flood of traffic is often so massive that it consumes all available resources, thus rendering the targeted system unfunctional.
 
-When one of these attacks takes place, the targeted business or individual experiences a crippling interruption in its services because the attack has flooded their resources with a massive volume of HTTP requests and traffic - thus denying access to legitimate users.
+When one of these attacks takes place, the targeted business or individual experiences a crippling interruption in its services because the attack has flooded its resources with a massive volume of HTTP requests and traffic - thus denying access to legitimate users.
 
 Here's an analogy that makes this easier to understand: Imagine a popular nightclub with a strict 21-and-over policy. A group of underage teenagers, coordinated by someone wanting to disrupt the club's business, lines up at the entrance, each using fake IDs to try to gain entry. Legitimate patrons, who are of legal age and want to enjoy their evening, are stuck in line, unable to get past the bouncer.
 
@@ -39,17 +39,21 @@ Denial of Service attacks, otherwise known as DoS attacks, work similarly to DDo
 - **DDoS**: DDoS attacks are more complex and can generate an overwhelming amount of traffic by leveraging multiple systems. This makes them more challenging to defend against and often results in a more significant impact.
 
 #### Mitigation Complexity:
-- **DoS**: Mitigating a DoS attack can be relatively straightforward, as blocking the IP address of the attacking system may be sufficient to stop the attack.
+- **DoS**: Mitigating a DoS attack can be relatively straightforward, as blocking the signature and fingerprint of the attacking system may be sufficient to stop the attack.
 - **DDoS**: DDoS attacks require more sophisticated mitigation strategies, as simply blocking one IP address won't stop the attack. The distributed nature of the attack means that blocking one source might not have a significant effect on the overall attack.
 
-In summary, while both DoS and DDoS attacks aim to disrupt and deny service, DDoS attacks are more complex, involving multiple systems, and are generally more challenging to mitigate. They are also alarmingly in the rise!
+In summary, while both DoS and DDoS attacks aim to disrupt and deny service, DDoS attacks are more complex, involving multiple systems, and are generally more challenging to mitigate. They are also alarmingly on the rise!
 
 ## Types of common DDoS attacks
 
 DDoS attacks can be categorised into several types, each with its unique method and impact:
 
 ### Volume-Based Attacks
-These attacks aim to overwhelm the bandwidth of a target website by flooding it with a massive volume of traffic. This large volume of traffic consume all of the businesses bandwidth, making all of their resources unavailable. Two prime examples of such an attack would be ICPM floods and UDP floods.
+Volume-based attacks are a common form of DDoS attack that aims to overwhelm the bandwidth of a target website by flooding it with a massive volume of traffic. This large volume of traffic consumes all of the business's bandwidth, making all of its resources unavailable. Two prime examples of such an attack would be ICMP floods and UDP floods.
+
+These attacks are often carried out using botnets, which are networks of compromised computers controlled by an attacker. The botnet can generate an enormous amount of traffic, directed at the target, to create a flood.
+
+Amplification attacks are another method used in Volume-Based Attacks. In an amplification attack, the attacker exploits vulnerabilities in publicly accessible servers to multiply the volume of traffic sent to the target. By sending a small request to a vulnerable server and forging the target's IP address (a technique known as IP address spoofing or IPHM), the server responds with a much larger amount of data sent to the target. This amplifies the volume of traffic, hence the name "amplification attack."
 
 ### Protocol Attacks
 Protocol attacks exploit vulnerabilities in server resources, targeting specific layers of the network protocol. These attacks often manipulate traffic at layers 3 and 4 of the OSI Model (Open Systems Interconnection) and include examples like SYN/ACK attacks, Ping of Death, and Smurf DDoS.
@@ -58,7 +62,7 @@ Protocol attacks exploit vulnerabilities in server resources, targeting specific
 Application Layer Attacks, or Layer 7 attacks, target the top layer of the OSI model, where common internet requests such as HTTP and DNS occur. These subtle attacks mimic normal user behaviour and focus on specific applications, like a web server such as Apache.
 
 ### Multi-Vector Attacks
-Multi-vector attacks combine different types of attacks simultaneously, making them more complicated and harder to mitigate. An attacker might use a volume-based attack in conjunction with an application layer attack to maximise disruption to a business or organisation.
+Multi-vector attacks combine different types of attacks simultaneously, making them more complicated and harder to mitigate. An attacker might use a volume-based attack in conjunction with an application layer attack to maximise disruption to a business or organisation. Multi-vector attacks put a lot of load on system administrators as they must manage all layers to ensure stability is kept.
 
 ## What drives attackers to launch DDoS attacks
 
@@ -76,7 +80,7 @@ Attackers may launch DDoS attacks to extort money from victims. By crippling a w
 ### Political Activism
 Some DDoS attacks are driven by political motives. Hacktivist groups may target government websites or organisations they disagree with to make a political statement or to protest against specific policies.
 
-* **Thai Government (2015)**: In 2015, hacktivist group Anonymous launched a DDoS attack against Thai government websites in protest of the sentencing of two migrant workers[^3] [^4]. The attack was part of a broader campaign against perceived injustices in the Thai legal system[^4].
+* **Thai Government (2015)**: In 2015, the hacktivist group Anonymous launched a DDoS attack against Thai government websites in protest of the sentencing of two migrant workers[^3] [^4]. The attack was part of a broader campaign against perceived injustices in the Thai legal system[^4].
 * **Operation Israel (2014)**: Anonymous launched DDoS attacks against various Israeli government and financial websites in protest of the Israeli-Palestinian conflict[^5] [^6] [^7].
 * **Operation Hong Kong (2014)**: Anonymous targeted Chinese government websites to support the pro-democracy protests in Hong Kong[^7] [^8] [^9] [^10].
 * **Operation Catalonia (2017)**: In response to the Catalonia independence referendum, Anonymous launched DDoS attacks against Spanish government websites[^7] [^10] [^11].
@@ -159,11 +163,17 @@ Having a clear, coordinated and detailed DDoS response plan in place enables you
 
 Such preparation would include identifying critical services, being services that would cause operational delays to your business.
 
-If your business is suffering from a DDoS attack, it's generally not a good idea to overcommunicate to the public in order to limit brand reputation harm and to ensure you have the attack contained. Your best cause of action is monitor the attack and consult a professional to help mitigate the attack.
+If your business is suffering from a DDoS attack, it's generally not a good idea to overcommunicate to the public in order to limit brand reputation harm and to ensure you have the attack contained. Your best course of action is to monitor the attack and consult a professional to help mitigate the attack.
 
 ### Invest In Protection/Mitigation
 
-Utilising DDoS mitigation services like NexusPIPE allow your business to automatically detect and respond to attacks rapidly, ensuring your business stays afloat and stable.
+Utilising DDoS mitigation services like NexusPIPE allows your business to automatically detect and respond to attacks rapidly, ensuring your business stays afloat and stable.
+
+Having a provider that has proactive filtering systems allows your business to mitigate the attack as fast as possible, not after the damage has already been done. Proactive filtering systems are designed to detect and prevent DDoS attacks before they can cause significant harm. They continuously monitor network traffic, looking for unusual patterns or spikes that might indicate an attack, and take immediate action to block or divert the malicious traffic. NexusPIPE takes pride in being a proactive DDoS mitigation service.
+
+More common, reactive filtering systems, on the other hand, respond to an attack after it has already begun. While they can still be effective in mitigating the damage, there may be a delay between the onset of the attack and the system's response. During this time, the targeted system may become overwhelmed, leading to service disruptions or other negative impacts.
+
+In the context of DDoS mitigation, having the right filtering system in place is like having a well-trained security team that can either prevent a problem before it starts or respond quickly once it's detected. The goal is to minimise the impact on legitimate users and keep the system running smoothly.
 
 DDoS attacks are a serious threat, but with proper planning, detection, and response strategies, their impact can be minimised. By following these best practices and leveraging specialised DDoS mitigation services like NexusPIPE, organisations can protect themselves against these disruptive attacks and ensure that they are prepared to respond effectively when an attack occurs.
 
