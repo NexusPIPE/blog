@@ -5,7 +5,7 @@ authors: [erdit]
 tags: [protection, nexusuvc, captcha]
 ---
 
-![Credential Stuffing and how NexusPIPE stop it](/static/img/cards/credentialstuffing.png)
+[![Credential Stuffing and how NexusPIPE stop it](/img/cards/credentialstuffing.png)](https://blog.nexuspipe.com/credential-stuffing/)
 
 # Introduction
 The digital world is ever-growing, and the battle for security is a relentless chase, a constant struggle between protection and intrusion. As swiftly as technology grows, so do the number of cyber threats. Whether it's an individual or a global enterprise, the threats are real, and often hidden, ready to strike when least expected.
