@@ -1,5 +1,5 @@
 ---
-slug: understanding-ddos-attacks--ddos-attacks-explained
+slug: understanding-ddos-attacks
 title: Understanding DDoS Attacks
 authors: [erdit, expo]
 tags: [protection,ddos]
