@@ -34,11 +34,11 @@ Denial of Service attacks, otherwise known as DoS attacks, work similarly to DDo
 - **DoS**: A DoS attack typically originates from a single source or system. One attacker uses one computer to flood a target with traffic or requests.
 - **DDoS**: A DDoS attack, on the other hand, involves multiple compromised systems, often spread across various locations. These systems work together to flood the target, making the attack more powerful and harder to mitigate.
 
-#### **Scale and Impact**:
+#### Scale and Impact:
 - **DoS**: Since a DoS attack comes from a single source, it's generally easier to identify and block. The scale of the attack is limited by the resources of the attacking system.
 - **DDoS**: DDoS attacks are more complex and can generate an overwhelming amount of traffic by leveraging multiple systems. This makes them more challenging to defend against and often results in a more significant impact.
 
-#### Mitigation Complexity**:
+#### Mitigation Complexity:
 - **DoS**: Mitigating a DoS attack can be relatively straightforward, as blocking the IP address of the attacking system may be sufficient to stop the attack.
 - **DDoS**: DDoS attacks require more sophisticated mitigation strategies, as simply blocking one IP address won't stop the attack. The distributed nature of the attack means that blocking one source might not have a significant effect on the overall attack.
 
@@ -48,7 +48,7 @@ In summary, while both DoS and DDoS attacks aim to disrupt and deny service, DDo
 
 DDoS attacks can be categorised into several types, each with its unique method and impact:
 
-### Volume Based Attacks
+### Volume-Based Attacks
 These attacks aim to overwhelm the bandwidth of a target website by flooding it with a massive volume of traffic. This large volume of traffic consume all of the businesses bandwidth, making all of their resources unavailable. Two prime examples of such an attack would be ICPM floods and UDP floods.
 
 ### Protocol Attacks
