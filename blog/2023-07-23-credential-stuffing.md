@@ -2,7 +2,7 @@
 slug: credential-stuffing
 title: 'Credential Stuffing: How NexusUVC Stops It'
 authors: [erdit] 
-tags: [protection, nexusuvc, captcha]
+tags: [protection, nexusuvc, captcha, important]
 ---
 
 [![How NexusPIPE protects your website from Credential Stuffing and other Brute Force attacks](/img/cards/credentialstuffing.png)](https://blog.nexuspipe.com/credential-stuffing/)
