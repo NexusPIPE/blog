@@ -11,6 +11,8 @@ Coming from a history of tackling cyber threats ourselves, we as engineers and d
 
 This longing led to the creation of NexusPIPE. We designed it to be the solution we ourselves sought - a complete suite of services designed to safeguard your online presence and guarantee uninterrupted business operations. Just as we desired for ourselves, we now offer to you.
 
+<!--truncate-->
+
 ### The Rising Threat of Cyber Attacks
 
 Additionally, the costs associated with these attacks are mounting. A Corero survey found that DDoS attacks can cost enterprise organisations $50,000 USD in lost revenue from downtime costs. Nearly 70 percent of organisations experience 20-50 DDoS attacks per month ([Source](https://www.comparitech.com/blog/information-security/ddos-statistics-facts/#:~:text=A%20Corero%20survey%20found%20DDoS,50%20DDoS%20attacks%20per%20month.)).
