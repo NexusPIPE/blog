@@ -1,8 +1,8 @@
 ---
-slug: avoiding-user-friction-nexusuvc
-title: Avoiding 'User Friction': How NexusPIPE's CAPTCHA Enhances User Retention
-authors: [erdit]
-tags: [protection,captcha,nexusuvc,friction]
+slug: avoid-user-friction-uvc
+title: Avoiding User Friction: How NexusPIPE's CAPTCHA Enhances User Retention
+authors: [erdit, expo]
+tags: [protection,ddos]
 ---
 
 [![Avoiding User Friction How NexusPIPE's CAPTCHA Enhances User Retention](/img/cards/captchafriction.png)](https://blog.nexuspipe.com/avoiding-user-friction-nexusuvc/)
@@ -15,7 +15,7 @@ Differentiating between real humans and fake bots shouldn't be *that* frustratin
 
 User Friction is a massive problem for businesses, user frustration means users are less likely to go through with using your service, leading to a decrease in conversion rates and also potential revenue loss. In a world where every click matters, the last thing you want is to lose a customer over a confusing CAPTCHA.
 
-NexusUVC, our in-house CAPTCHA service, was engineered to combat this user friction and create a service that is far more intuitive, and **far faster**. Humanity wastes about 500 years per day on CAPTCHAs[^1], with an average resolve time of conventional CAPTCHAs being 32 seconds[^1]. NexusPIPE takes just **two** to three seconds to resolve on average - on average, that's a **1600%** speed difference. But how?
+NexusUVC, our in-house CAPTCHA service, was engineered to combat this user friction and create a service that is far more intuitive, and **far faster**. Humanity wastes about 500 years per day on CAPTCHAs[^1], with an average resolution time of conventional CAPTCHAs being 32 seconds[^1]. NexusPIPE takes just **two** to three seconds to resolve on average - on average, that's a **1600%** speed difference. But how?
 
 ## The Challenge of Traditional CAPTCHAs
 
@@ -24,7 +24,7 @@ CAPTCHAs, or Completely Automated Public Turing tests to tell Computers and Huma
 The original idea behind CAPTCHAs was to create challenges that were easy for humans but difficult for computers. However, as bots became more sophisticated, the complexity of CAPTCHAs increased. This led to several challenges:
 
 1. **Growing Complexity:** To keep up with evolving bot technology, CAPTCHAs have become more intricate, often leading to confusion for users. The distorted text and ambiguous images can leave even genuine users puzzled.
-2. **Exclusion of Certain Demographics:** The complexity of modern CAPTCHAs can be particularly harmful to certain groups, such as the elderly, visually impaired, or those with cognitive disabilities. The challenges may become insurmountable barriers for them, leading to exclusion from online services.
+2. **Exclusion of Certain Demographics:** The complexity of modern CAPTCHAs can be particularly harmful to certain groups, such as the elderly, the visually impaired, or those with cognitive disabilities. The challenges may become insurmountable barriers for them, leading to exclusion from online services.
 3. **Time-Consuming:** The increased difficulty means users may have to spend several minutes deciphering the challenge, leading to impatience, frustration and user friction.
 
 These factors contribute to a growing disconnect between the original intent of CAPTCHAs and the user experience. While they were designed to enhance security, the increased complexity has often led to user dissatisfaction and potential abandonment of the site or service.
@@ -33,12 +33,12 @@ These factors contribute to a growing disconnect between the original intent of 
 
 NexusUVC kills all these problems with one stone - offering a simplistic puzzle-style CAPTCHA for your users that can be solved extremely easily. NexusUVC is designed to tackle the problem of user friction head-on, providing a user-friendly experience without compromising on security. Here's how:
 
-1. **Slide To Complete**: It doesn't get easier than this! Your user simply slides a puzzle piece into a puzzle slot, and if they do so correctly, they are let through. That is it, no AI generated images to confusingly choose, no text to type out or audio to repeat.
+1. **Slide To Complete**: It doesn't get easier than this! Your user simply slides a puzzle piece into a puzzle slot, and if they do so correctly, they are let through. That is it, no AI-generated images to confusingly choose, no text to type out or audio to repeat.
 2. **No-CAPTCHA**: "No-CAPTCHA" is a term that simply refers to a CAPTCHA system where the user is not required to solve anything to pass through, instead, there are various security checks behind the scenes that ensure the user is a human. Oh, and we don't charge anything extra for our No-CAPTCHA either!
-3. **Accessibility Focus**: By purposefully catering to all users, including those with disabilities, NexusPIPE ensures nobody has to go through long lengths to get passed our CAPTCHA and verify their identify.
-4. **Privacy**: We **never** collect your data for advertising purposes or for intend to sell, we prioritise privacy and have full compliance with global data laws - our focus being on whether you managed to navigate the UVC successfully or not!
+3. **Accessibility Focus**: By purposefully catering to all users, including those with disabilities, NexusPIPE ensures nobody has to go through long lengths to get passed our CAPTCHA and verify their identity.
+4. **Privacy**: We **never** collect your data for advertising purposes or for intent to sell, we prioritise privacy and have full compliance with global data laws - our focus being on whether you managed to navigate the UVC successfully or not!
 
-Not only this, UVC comes equipped with two ways for your users to complete the CAPTCHA - either by dragging the puzzle piece itself, or by dragging the slider to align the puzzle piece. Making it *even easier* for people to get the hang of it.
+Not only this, UVC comes equipped with two ways for your users to complete the CAPTCHA - either by dragging the puzzle piece itself or by dragging the slider to align the puzzle piece. Making it *even easier* for people to get the hang of it.
 
 ### Benefits of less user friction thanks to NexusUVC
 
