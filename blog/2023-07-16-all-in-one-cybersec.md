@@ -15,7 +15,7 @@ This longing led to the creation of NexusPIPE. We designed it to be the solution
 
 ### The Rising Threat of Cyber Attacks
 
-Additionally, the costs associated with these attacks are mounting. A Corero survey found that DDoS attacks can cost enterprise organisations $50,000 USD in lost revenue from downtime costs. Nearly 70 percent of organisations experience 20-50 DDoS attacks per month ([Source](https://www.comparitech.com/blog/information-security/ddos-statistics-facts/#:~:text=A%20Corero%20survey%20found%20DDoS,50%20DDoS%20attacks%20per%20month.)).
+Additionally, the costs associated with these attacks are mounting. A Corero survey found that DDoS attacks can cost enterprise organisations $50,000 USD in lost revenue from downtime costs. Nearly 70 percent of organisations experience 20-50 DDoS attacks per month[^1].
 
 These statistics underline the critical importance of having robust DDoS mitigation and general cybersecurity measures in place for your websites.
 
@@ -62,5 +62,7 @@ In the ever-evolving landscape of cyber threats, businesses need a cybersecurity
 In a world where DDoS attacks are on the rise and the costs of these attacks are mounting, the need for such a solution is more critical than ever. So, as you consider your cybersecurity needs, remember that the best solution is not just about protection, it's about simplicity, cost-effectiveness, and peace of mind. It's about having an all-in-one solution that has got you covered, no matter what.
 
 Ready to secure your business with NexusPIPE? Start your journey with us today. Learn more about us and our mission at NexusPIPE: [https://nexuspipe.com/about](https://nexuspipe.com/about), or contact us for personalised guidance and help:  https://nexuspipe.com/contact
+
+[^1]: [# Nearly 70% of organisations experience 20-50 DDoS attacks per month](https://www.comparitech.com/blog/information-security/ddos-statistics-facts/#:~:text=A%20Corero%20survey%20found%20DDoS,50%20DDoS%20attacks%20per%20month) ([Archive](http://web.archive.org/web/20230824113037/https://www.comparitech.com/blog/information-security/ddos-statistics-facts/))
 
 *This article was originally written on LinkedIn, [read it there](https://www.linkedin.com/pulse/why-all-in-one-website-cybersecurity-solution-makes-sense-nexuspipe%3FtrackingId=KuCvHVwkoV0uJ%252BqSI%252BjK0w%253D%253D/?trackingId=KuCvHVwkoV0uJ%2BqSI%2BjK0w%3D%3D).*
