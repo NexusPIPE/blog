@@ -2,7 +2,7 @@
 slug: captcha-friction
 title: 'Avoiding User Friction: How NexusUVC Enhances User Retention'
 authors: [erdit] 
-tags: [protection, nexusuvc, captcha]
+tags: [protection, nexusuvc, captcha, important]
 ---
 
 [![Avoiding User Friction How NexusUVC Enhances User Retention](/img/cards/captchafriction.png)](https://blog.nexuspipe.com/avoiding-user-friction-nexusuvc/)
