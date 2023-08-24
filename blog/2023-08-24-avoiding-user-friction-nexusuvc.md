@@ -1,6 +1,6 @@
 ---
 slug: avoid-user-friction-uvc
-title: Avoiding User Friction: How NexusPIPE's CAPTCHA Enhances User Retention
+title: 'Avoiding User Friction: How NexusPIPE's CAPTCHA Enhances User Retention'
 authors: [erdit, expo]
 tags: [protection,ddos]
 ---
