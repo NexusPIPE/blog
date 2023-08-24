@@ -2,7 +2,7 @@
 slug: understanding-ddos-attacks
 title: Understanding DDoS Attacks
 authors: [erdit, expo]
-tags: [protection,ddos]
+tags: [protection,ddos,important]
 ---
 
 [![Understanding DDoS Attacks](/img/cards/understandingddos.png)](https://blog.nexuspipe.com/understanding-ddos-attacks/)
