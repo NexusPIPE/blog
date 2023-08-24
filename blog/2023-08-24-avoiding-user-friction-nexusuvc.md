@@ -6,6 +6,7 @@ tags: [protection,captcha,nexusuvc,friction]
 ---
 
 [![Avoiding User Friction How NexusPIPE's CAPTCHA Enhances User Retention](/img/cards/captchafriction.png)](https://blog.nexuspipe.com/avoiding-user-friction-nexusuvc/)
+
 ## Introduction
 
 Differentiating between real humans and fake bots shouldn't be *that* frustrating. Let's be honest here, sometimes we go through a headache trying to solve a CAPTCHA. Be-it trying to know which squares show the "bear riding a unicycle", or whether the random combinations of letters you have to enter are uppercase or lowercase - this time period where you are debating with yourself on what to press or enter, or having to restart the CAPTCHA entirely because you made a mistake, is what we refer to as "User Friction".
