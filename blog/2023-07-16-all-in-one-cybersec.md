@@ -65,4 +65,4 @@ Ready to secure your business with NexusPIPE? Start your journey with us today. 
 
 [^1]: [# Nearly 70% of organisations experience 20-50 DDoS attacks per month](https://www.comparitech.com/blog/information-security/ddos-statistics-facts/#:~:text=A%20Corero%20survey%20found%20DDoS,50%20DDoS%20attacks%20per%20month) ([Archive](http://web.archive.org/web/20230824113037/https://www.comparitech.com/blog/information-security/ddos-statistics-facts/))
 
-*This article was originally written on LinkedIn, [read it there](https://www.linkedin.com/pulse/why-all-in-one-website-cybersecurity-solution-makes-sense-nexuspipe%3FtrackingId=KuCvHVwkoV0uJ%252BqSI%252BjK0w%253D%253D/?trackingId=KuCvHVwkoV0uJ%2BqSI%2BjK0w%3D%3D).*
+*This article was originally written on LinkedIn, [read it there](https://www.linkedin.com/pulse/why-all-in-one-website-cybersecurity-solution-makes-sense-nexuspipe).*
