@@ -5,7 +5,7 @@ authors: [erdit]
 tags: [protection, nexusuvc, captcha, important]
 ---
 
-[![Avoiding User Friction How NexusUVC Enhances User Retention](/img/cards/captchafriction.png)](https://blog.nexuspipe.com/avoiding-user-friction-nexusuvc/)
+[![Avoiding User Friction How NexusUVC Enhances User Retention](/img/cards/captchafriction.png)](https://blog.nexuspipe.com/captcha-friction/)
 
 ## Introduction
 
@@ -33,7 +33,7 @@ These factors contribute to a growing disconnect between the original intent of 
 
 NexusUVC kills all these problems with one stone - offering a simplistic puzzle-style CAPTCHA for your users that can be solved extremely easily. NexusUVC is designed to tackle the problem of user friction head-on, providing a user-friendly experience without compromising on security. Here's how:
 
-1. **Slide To Complete**: It doesn't get easier than this! Your user simply slides a puzzle piece into a puzzle slot, and if they do so correctly, they are let through. That is it, no AI-generated images to confusingly choose, no text to type out or audio to repeat.
+1. **Slide To Complete**: It doesn't get easier than this! Your user simply slides a puzzle piece into a puzzle slot, and if they do so correctly, they are let through. That is it, no AI-generated images to confusingly choose, no text to type out, or audio to repeat.
 2. **No-CAPTCHA**: "No-CAPTCHA" is a term that simply refers to a CAPTCHA system where the user is not required to solve anything to pass through, instead, there are various security checks behind the scenes that ensure the user is a human. Oh, and we don't charge anything extra for our No-CAPTCHA either!
 3. **Accessibility Focus**: By purposefully catering to all users, including those with disabilities, NexusPIPE ensures nobody has to go through long lengths to get passed our CAPTCHA and verify their identity.
 4. **Privacy**: We **never** collect your data for advertising purposes or for intent to sell, we prioritise privacy and have full compliance with global data laws - our focus being on whether you managed to navigate the UVC successfully or not!
@@ -48,7 +48,7 @@ NexusPIPE's CAPTCHA not only enhances the user experience but also brings tangib
 - **Higher Conversion Rates:** A smoother experience leads to more successful registrations, purchases, or other conversions.
 - **Positive Brand Perception:** Offering a user-friendly CAPTCHA reflects positively on the brand, building trust and loyalty.
 
-NexusUVC is a modern, sophisticated and professional take on the CAPTCHA, it's going to be completely customisable, available in multiple languages, and beautiful in order to smoothly fit your website.
+NexusUVC is a modern, sophisticated, and professional take on the CAPTCHA, it's going to be completely customisable, available in multiple languages, and beautiful in order to smoothly fit your website.
 
 ## Conclusion
 
