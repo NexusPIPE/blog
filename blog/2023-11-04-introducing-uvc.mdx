@@ -17,14 +17,16 @@ Everyone understands and deals with CAPTCHAs every time they browse the internet
 
 NexusPIPE's mission is to provide a [Frictionless Experience](https://blog.nexuspipe.com/captcha-friction/) with all angles of our cybersecurity, NexusUVC is the biggest example of this. When referring to our visible CAPTCHA, we have a solve time of up to just 3 seconds on average, in contrast to the average solve time, we're up to 1600% faster, and insanely reliable too.
 
-Why not try it out yourself?
+Why not [try it out yourself](https://uvc.nexuspipe.com)?
 
 <script
   src="https://unpkg.com/@nexusuvc/frontend@^1.0.0/vanilla"
   type="module"
 ></script>
 
-<nexus-uvc publicKey="2222222222222222222222222222222222222222222222222222222222222222" options="{}" id="uvcdemo"></nexus-uvc>
+<nexus-uvc publicKey="2222222222222222222222222222222222222222222222222222222222222222" options='{"slider": true,"colours": {"left": "#ff6302","right": "#ffc266","check": "#ffa820"}}'></nexus-uvc>
+
+<!-- may not render in dev due to react being annoying -->
 
 ### Puzzle Design
 
@@ -46,19 +48,17 @@ In addition, the implementation is significantly easier than comparable products
 
 #### Simplified Installation
 
-- **NPM Package**: With a single command, `pnpm i @nexusuvc/frontend`, NexusUVC can be added to your project using PNPM, ensuring compatibility with your build system, be it Rollup, Vite, Parcel, or Webpack.
-
-* **CDN Use**: Not using a bundler? No problem. We provide a CDN link for NexusUVC, allowing you to include our CAPTCHA with just a few lines of HTML.
+- **NPM Package**: With a single command, `pnpm i @nexusuvc/frontend`, NexusUVC can be added to your project using [PNPM](https://pnpm.io) (other package managers will also work just fine), ensuring compatibility with your build system, be it Rollup, Vite, Parcel, or Webpack.
+- **CDN Use**: Not using a bundler? No problem. We provide CDN links for NexusUVC, allowing you to include our CAPTCHA with just a few lines of HTML.
 
 #### Framework Agnostic
 
 NexusUVC speaks your language, and it fits right into your tech stack:
 
-- **Svelte and SvelteKit**: Import NexusUVC as a Svelte component with ease. The CAPTCHA can be added with minimal code, making it a native part of your Svelte application.
-
+- **[Svelte](https://svelte.dev) and [SvelteKit](https://kit.svelte.dev)**: Import NexusUVC as a Svelte component with ease. The CAPTCHA can be added with minimal code, making it a native part of your Svelte application.
 - **Vanilla JavaScript**: For those who prefer vanilla JS, integrating NexusUVC is as simple as adding any other script to your website.
-
-- **Other Frameworks**: Angular, React, Vue, or something else? NexusUVC is compatible with as many JavaScript frameworks, ensuring that no matter what your preference is, we've got you covered.
+- **Vue and Nuxt**: We provide first-party bindings to our Vanilla JS implementation for Vue, allowing an extremely simple integration.
+- **Other Frameworks**: React, Angular, or something else? NexusUVC is compatible with as many JavaScript frameworks, via the vanilla package, ensuring that no matter what your preference is, we've got you covered.
 
 #### Minimal Configuration
 
@@ -81,6 +81,12 @@ Implementing NexusUVC on the client side is hassle-free. Here’s a sneak peek a
 
 Rest assured, if you're not using Svelte, you can still use NexusUVC. See our [Documentation](https://docs.nexuspipe.com/uvc/integrating/#__tabbed_3_1) for more information.
 
+:::tip
+
+Did you know: All the code that runs on your domain is open-source? You can check it out in the [NexusPIPE/uvc-frontend](https://github.com/NexusPIPE/uvc-frontend) repository on Github!
+
+:::
+
 #### Server-Side Assurance
 
 We’ve not forgotten the server side. A simple API call allows you to validate the CAPTCHA response, ensuring that the verification process is robust and secure:
@@ -99,6 +105,13 @@ const validateCaptcha = async (privateKey: string, ticket: string) => {
 ```
 
 This flexibility and simplicity ensure that no matter how you’ve built your site, integrating NexusUVC is straightforward, letting you and your team focus on creating an engaging user experience while we handle the security.
+
+:::tip
+
+You can simply rewrite the above request in whichever language your server
+uses, and it'll just work. More information on the complete returned type can be found [in our documentation](https://docs.nexuspipe.com/uvc/integrating/#server-side-validation).
+
+:::
 
 #### Build-A-Captcha
 
@@ -148,7 +161,7 @@ Delving deeper into our dedication to security, we utilise RAMDisk technology fo
 
 While we are committed to protecting our users' privacy, we also ensure compliance with international security standards. Our non-storage approach aligns with global privacy regulations such as the GDPR, offering a CAPTCHA service that respects user privacy without compromising on security.
 
-By choosing NexusUVC, our clients can be confident that they are enhancing their website's security without endangering user privacy. It is not just a CAPTCHA solution; it's a commitment to a safer, more secure, and private online experience.
+By choosing NexusUVC, you can be confident that you are enhancing your website's security without endangering user privacy, and your users can rest assured that their data won't be maliciously used by a large corperation. It is not just a CAPTCHA solution; it's a commitment to a safer, more secure, and private online experience.
 
 ## User Accessibility: A CAPTCHA For Everybody
 
@@ -208,6 +221,6 @@ In conclusion, NexusUVC redefines what you can expect from a CAPTCHA service. By
 
 Empower your website with a CAPTCHA service that is both easy for your users and incredible against threats. It's time to say goodbye to user friction, slow CAPTCHAs, unreliable security and hello to NexusUVC - where each CAPTCHA is an opportunity to prove that safety on the web **can be seamless**.
 
-[Start with 10K free solves, no deposit or billing information required](https://nexuspipe.com/get-started/)
+[Start with 10K free solves, no deposit or billing information required!](https://nexuspipe.com/get-started/)
 
 Take the first step towards a safer, more accessible web presence for your users today.
