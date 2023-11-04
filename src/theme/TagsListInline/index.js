@@ -5,11 +5,6 @@ import styles from './styles.module.css';
 export default function TagsListInline({ tags }) {
   return (
     <>
-      <span className="variant-article">
-        <b>Enjoyed this article?</b>
-        <br />
-        Check out other posts tagged with
-      </span>
       <span className="variant-snippet">
         <b>Want more like this?</b>
         <br />

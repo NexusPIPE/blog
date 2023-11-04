@@ -82,19 +82,3 @@ footer.footer {
   padding-top: 32px;
   text-align: left;
 }
-
-.variant-article {
-  display: none;
-}
-
-.variant-snippet {
-  display: inline-block;
-}
-
-#__blog-post-container + footer .variant-snippet {
-  display: none;
-}
-
-#__blog-post-container + footer .variant-article {
-  display: inline-block;
-}
