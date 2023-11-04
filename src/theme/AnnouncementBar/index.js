@@ -8,7 +8,8 @@ import styles from './styles.module.css';
 // id:href? pairs
 const barLinks = {
   'getstarted-bar-1': 'https://nexuspipe.com/get-started',
-}
+  'uvc-bar-1': '/introducing-uvc',
+};
 
 export const AnBar = () => {
   const { announcementBar } = useThemeConfig();
@@ -21,7 +22,8 @@ export const AnBar = () => {
     <div
       className={styles.announcementBar}
       style={{ backgroundColor, color: textColor }}
-      role="banner">
+      role="banner"
+    >
       {isCloseable && <div className={styles.announcementBarPlaceholder} />}
       <AnnouncementBarContent className={styles.announcementBarContent} />
       {isCloseable && (
@@ -29,14 +31,14 @@ export const AnBar = () => {
           onClick={e => {
             e.preventDefault();
             e.stopPropagation();
-            close(e)
+            close(e);
           }}
           className={styles.announcementBarClose}
         />
       )}
     </div>
   );
-}
+};
 export const AnnouncementBar = () => {
   const { announcementBar } = useThemeConfig();
   // if announcementbar.href, use a link to wrap ab, otherwise just use ab
@@ -47,7 +49,8 @@ export const AnnouncementBar = () => {
           className={`${styles.announcementBarLink}`}
           href={barLinks[announcementBar.id]}
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
           <AnBar />
         </a>
       ) : (
@@ -55,5 +58,5 @@ export const AnnouncementBar = () => {
       )}
     </>
   );
-}
+};
 export default AnnouncementBar;

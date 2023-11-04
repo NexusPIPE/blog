@@ -9,23 +9,34 @@ const rngStrings = {
     '🚀 Secure your site with NexusPIPE today! 🚀',
     '🚀 Get started with NexusPIPE today! 🚀',
     '🚀 NexusPIPE: Where Security Meets Innovation – Try Us Today! 🚀',
-    '🚀 Let\'s CAPTCHA - ture the future together! 🚀',
+    "🚀 Let's CAPTCHA - ture the future together! 🚀",
     '🚀 CAPTCHA Your Peace of Mind with NexusPIPE Today! 🚀',
-  ]
-}
+  ],
+  'uvc-str-rng': [
+    `🚀 Let's CAPTCHA - ture the future together! 🚀`,
+    '🚀 CAPTCHA Your Peace of Mind with NexusPIPE Today! 🚀',
+    `🤖 NexusUVC: Human-solvable CAPTCHAs that properly defeat bots. 🤖`,
+  ],
+};
 
-export default function AnnouncementBarContent(props) {
+export const AnnouncementBarContent = props => {
   const { announcementBar } = useThemeConfig();
   const { content } = announcementBar;
-  useEffect(async () => {
-    let banner = document.getElementById('banner')
-    if (!banner) while (!banner) {
-      banner = document.getElementById('banner')
+  useEffect(() => {
+    (async () => {
+      let banner = document.getElementById('banner');
       if (!banner)
-        await new Promise(r => setTimeout(r, 100));
-    }
-    banner.innerHTML = rngStrings[content] ? rngStrings[content][Math.floor(Math.random() * rngStrings[content].length)] : content
-  })
+        while (!banner) {
+          banner = document.getElementById('banner');
+          if (!banner) await new Promise(r => setTimeout(r, 100));
+        }
+      banner.innerHTML = rngStrings[content]
+        ? rngStrings[content][
+            Math.floor(Math.random() * rngStrings[content].length)
+          ]
+        : content;
+    })();
+  });
   return (
     <div
       {...props}
@@ -36,4 +47,6 @@ export default function AnnouncementBarContent(props) {
       id="banner"
     />
   );
-}
+};
+
+export default AnnouncementBarContent;

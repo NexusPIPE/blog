@@ -1,10 +1,8 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
 
-const darkCodeTheme = require('prism-react-renderer/themes/duotoneDark');
-
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+const config: Config = {
   title: 'NexusPIPE',
   tagline: 'Competent DDoS Protection',
   favicon: 'img/favicon.ico',
@@ -37,7 +35,7 @@ const config = {
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         blog: {
           showReadingTime: true,
           routeBasePath: '/',
@@ -48,21 +46,21 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      } satisfies Preset.Options,
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       // Replace with your project's social card
       image: 'img/blog-social.png',
       announcementBar: {
         // content: '🚧 This is under construction 🚧',
-        content: 'get-started-str-rng',//getStartedStrings[Math.floor(Math.random() * getStartedStrings.length)],
+        content: 'uvc-str-rng',
         backgroundColor: '#1a1a1a3a',
         textColor: '#c9c9c9',
-        id: 'getstarted-bar-1',
+        id: 'uvc-bar-1',
       },
       navbar: {
         title: 'NexusPIPE Blog',
@@ -131,23 +129,31 @@ const config = {
                 label: 'Contact Us',
                 href: 'https://nexuspipe.com/contact',
               },
-              { href: 'https://docs.nexuspipe.com', label: 'Documentation', position: 'left' },
-              { href: 'mailto:contact@nexuspipe.com', label: 'Report an error', position: 'left' },
+              {
+                href: 'https://docs.nexuspipe.com',
+                label: 'Documentation',
+                position: 'left',
+              },
+              {
+                href: 'mailto:contact@nexuspipe.com',
+                label: 'Report an error',
+                position: 'left',
+              },
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} NexusPIPE. Licensed under the <a href="https://github.com/NexusPIPE/blog/blob/master/LICENSE" target="_blank">MIT License</a>.<br/>Want dedicated help? <a href="https://nexuspipe.com/contact" target="_blank">Contact Us</a>`,
       },
       prism: {
-        theme: darkCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.vsDark,
+        darkTheme: prismThemes.vsDark,
       },
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
-    }),
+    } satisfies Preset.ThemeConfig,
 };
 
-module.exports = config;
+export default config;
