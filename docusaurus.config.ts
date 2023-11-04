@@ -42,6 +42,7 @@ const config: Config = {
           path: './blog',
           blogTitle: 'NexusPIPE Blog',
           blogSidebarTitle: 'Posts',
+          editUrl: 'https://github.com/NexusPIPE/Blog/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -50,110 +51,108 @@ const config: Config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    {
-      // Replace with your project's social card
-      image: 'img/blog-social.png',
-      announcementBar: {
-        // content: '🚧 This is under construction 🚧',
-        content: 'uvc-str-rng',
-        backgroundColor: '#1a1a1a3a',
-        textColor: '#c9c9c9',
-        id: 'uvc-bar-1',
+  themeConfig: {
+    // Replace with your project's social card
+    image: 'img/blog-social.png',
+    announcementBar: {
+      // content: '🚧 This is under construction 🚧',
+      content: 'uvc-str-rng',
+      backgroundColor: '#1a1a1a3a',
+      textColor: '#c9c9c9',
+      id: 'uvc-bar-1',
+    },
+    navbar: {
+      title: 'NexusPIPE Blog',
+      logo: {
+        alt: 'NexusPIPE Logo',
+        src: 'img/logo.svg',
       },
-      navbar: {
-        title: 'NexusPIPE Blog',
-        logo: {
-          alt: 'NexusPIPE Logo',
-          src: 'img/logo.svg',
+      items: [
+        {
+          href: '/tags',
+          label: 'View All Article Tags',
+          position: 'left',
         },
-        items: [
-          {
-            href: '/tags',
-            label: 'View All Article Tags',
-            position: 'left',
-          },
-          {
-            href: 'https://nexuspipe.com/discover',
-            label: 'Discover NexusPIPE',
-            position: 'right',
-          },
-          {
-            href: 'https://dash.nexuspipe.com/',
-            label: 'Client Dashboard',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        links: [
-          {
-            title: 'Products',
-            items: [
-              {
-                label: 'NexusPIPE ADC',
-                href: 'https://nexuspipe.com/adc',
-              },
-              {
-                label: 'DDoS Mitigation',
-                href: 'https://nexuspipe.com/protection',
-              },
-              {
-                label: 'NexusUVC™',
-                href: 'https://nexuspipe.com/uvc/',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/nexuspipe',
-              },
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/nexuspipe',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/nexuspipe',
-              },
-            ],
-          },
-          {
-            title: 'Other',
-            items: [
-              {
-                label: 'Contact Us',
-                href: 'https://nexuspipe.com/contact',
-              },
-              {
-                href: 'https://docs.nexuspipe.com',
-                label: 'Documentation',
-                position: 'left',
-              },
-              {
-                href: 'mailto:contact@nexuspipe.com',
-                label: 'Report an error',
-                position: 'left',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} NexusPIPE. Licensed under the <a href="https://github.com/NexusPIPE/blog/blob/master/LICENSE" target="_blank">MIT License</a>.<br/>Want dedicated help? <a href="https://nexuspipe.com/contact" target="_blank">Contact Us</a>`,
-      },
-      prism: {
-        theme: prismThemes.vsDark,
-        darkTheme: prismThemes.vsDark,
-      },
-      colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: true,
-        respectPrefersColorScheme: false,
-      },
-    } satisfies Preset.ThemeConfig,
+        {
+          href: 'https://nexuspipe.com/discover',
+          label: 'Discover NexusPIPE',
+          position: 'right',
+        },
+        {
+          href: 'https://dash.nexuspipe.com/',
+          label: 'Client Dashboard',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      links: [
+        {
+          title: 'Products',
+          items: [
+            {
+              label: 'NexusPIPE ADC',
+              href: 'https://nexuspipe.com/adc',
+            },
+            {
+              label: 'DDoS Mitigation',
+              href: 'https://nexuspipe.com/protection',
+            },
+            {
+              label: 'NexusUVC™',
+              href: 'https://nexuspipe.com/uvc/',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/nexuspipe',
+            },
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/nexuspipe',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/nexuspipe',
+            },
+          ],
+        },
+        {
+          title: 'Other',
+          items: [
+            {
+              label: 'Contact Us',
+              href: 'https://nexuspipe.com/contact',
+            },
+            {
+              href: 'https://docs.nexuspipe.com',
+              label: 'Documentation',
+              position: 'left',
+            },
+            {
+              href: 'mailto:contact@nexuspipe.com',
+              label: 'Report an error',
+              position: 'left',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} NexusPIPE. Licensed under the <a href="https://github.com/NexusPIPE/blog/blob/master/LICENSE" target="_blank">MIT License</a>.<br/>Want dedicated help? <a href="https://nexuspipe.com/contact" target="_blank">Contact Us</a>`,
+    },
+    prism: {
+      theme: prismThemes.vsDark,
+      darkTheme: prismThemes.vsDark,
+    },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
+  } satisfies Preset.ThemeConfig,
 };
 
 export default config;

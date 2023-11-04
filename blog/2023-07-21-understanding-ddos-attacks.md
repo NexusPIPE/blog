@@ -7,8 +7,6 @@ tags: [protection, ddos, important]
 
 [![Understanding DDoS Attacks](/img/cards/understandingddos.png)](https://blog.nexuspipe.com/understanding-ddos-attacks/)
 
-## Introduction
-
 Distributed Denial of Service attacks, or **DDoS** attacks, are on the rise. [InfoSecurity Magazine](https://www.infosecurity-magazine.com/blogs/ddos-attacks-in-2022-trends/) reported a staggering **90%** increase in DDoS attacks compared to the same period last year. These attacks are not only more frequent but also more powerful.
 
 <!--truncate-->
