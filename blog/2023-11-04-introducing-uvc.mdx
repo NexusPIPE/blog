@@ -68,7 +68,7 @@ With just a few settings, NexusUVC can be customised to fit your site’s look a
 
 Implementing NexusUVC on the client side is hassle-free. Here’s a sneak peek at the process for Svelte:
 
-```
+```svelte
 <script lang="ts">
   import NexusUVC from '@nexusuvc/frontend';
   const completedEvent = (e: CustomEvent<string>)=>{
@@ -79,16 +79,20 @@ Implementing NexusUVC on the client side is hassle-free. Here’s a sneak peek a
 <NexusUVC publicKey="<Your Public Key>" on:completed={completedEvent} />
 ```
 
-Rest assured, if you're not using svelte, you can still use NexusUVC. See our [Documentation](https://docs.nexuspipe.com/uvc/integrating/#__tabbed_3_1) for more information.
+Rest assured, if you're not using Svelte, you can still use NexusUVC. See our [Documentation](https://docs.nexuspipe.com/uvc/integrating/#__tabbed_3_1) for more information.
 
 #### Server-Side Assurance
 
 We’ve not forgotten the server side. A simple API call allows you to validate the CAPTCHA response, ensuring that the verification process is robust and secure:
 
-```
+```ts
 // An example validation function in TypeScript
 const validateCaptcha = async (privateKey: string, ticket: string) => {
-  const response = await fetch(`https://uvc.nexuspipe.com/uvc/evaluate/${encodeURIComponent(privateKey)}/${encodeURIComponent(ticket)}`);
+  const response = await fetch(
+    `https://uvc.nexuspipe.com/uvc/evaluate/${encodeURIComponent(
+      privateKey,
+    )}/${encodeURIComponent(ticket)}`,
+  );
   const data = await response.json();
   return data.success;
 };
