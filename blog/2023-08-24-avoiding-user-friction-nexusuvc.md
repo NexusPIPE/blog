@@ -1,15 +1,13 @@
 ---
 slug: captcha-friction
 title: 'Avoiding User Friction: How NexusUVC Enhances User Retention'
-authors: [erdit] 
+authors: [erdit]
 tags: [protection, nexusuvc, captcha, important]
 ---
 
 [![Avoiding User Friction How NexusUVC Enhances User Retention](/img/cards/captchafriction.png)](https://blog.nexuspipe.com/captcha-friction/)
 
-## Introduction
-
-Differentiating between real humans and fake bots shouldn't be *that* frustrating. Let's be honest here, sometimes we go through a headache trying to solve a CAPTCHA. Be-it trying to know which squares show the "bear riding a unicycle", or whether the random combinations of letters you have to enter are uppercase or lowercase - this time period where you are debating with yourself on what to press or enter, or having to restart the CAPTCHA entirely because you made a mistake, is what we refer to as "User Friction".
+Differentiating between real humans and fake bots shouldn't be _that_ frustrating. Let's be honest here, sometimes we go through a headache trying to solve a CAPTCHA. Be-it trying to know which squares show the "bear riding a unicycle", or whether the random combinations of letters you have to enter are uppercase or lowercase - this time period where you are debating with yourself on what to press or enter, or having to restart the CAPTCHA entirely because you made a mistake, is what we refer to as "User Friction".
 
 <!--truncate-->
 
@@ -38,7 +36,7 @@ NexusUVC kills all these problems with one stone - offering a simplistic puzzle-
 3. **Accessibility Focus**: By purposefully catering to all users, including those with disabilities, NexusPIPE ensures nobody has to go through long lengths to get passed our CAPTCHA and verify their identity.
 4. **Privacy**: We **never** collect your data for advertising purposes or for intent to sell, we prioritise privacy and have full compliance with global data laws - our focus being on whether you managed to navigate the UVC successfully or not!
 
-Not only this, UVC comes equipped with two ways for your users to complete the CAPTCHA - either by dragging the puzzle piece itself or by dragging the slider to align the puzzle piece. Making it *even easier* for people to get the hang of it.
+Not only this, UVC comes equipped with two ways for your users to complete the CAPTCHA - either by dragging the puzzle piece itself or by dragging the slider to align the puzzle piece. Making it _even easier_ for people to get the hang of it.
 
 ### Benefits of less user friction thanks to NexusUVC
 

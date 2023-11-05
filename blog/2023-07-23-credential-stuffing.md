@@ -1,13 +1,12 @@
 ---
 slug: credential-stuffing
 title: 'Credential Stuffing: How NexusUVC Stops It'
-authors: [erdit] 
+authors: [erdit]
 tags: [protection, nexusuvc, captcha, important]
 ---
 
 [![How NexusPIPE protects your website from Credential Stuffing and other Brute Force attacks](/img/cards/credentialstuffing.png)](https://blog.nexuspipe.com/credential-stuffing/)
 
-## Introduction
 The digital world is ever-growing, and the battle for security is a relentless chase, a constant struggle between protection and intrusion. As swiftly as technology grows, so do the number of cyber threats. Whether it's an individual or a global enterprise, the threats are real, and often hidden, ready to strike when least expected.
 
 <!--truncate-->
@@ -15,6 +14,7 @@ The digital world is ever-growing, and the battle for security is a relentless c
 Credential stuffing is an always ongoing threat in the world, where attackers use stolen credentials to gain unauthorised access to user accounts. On the surface, these logins appear legitimate, making detection challenging. This deceptive technique is not only prevalent but also highly effective, posing serious risks to both individuals and organisations. However, with the right understanding and tools, it's a threat that can be managed and mitigated.
 
 ## How does credential stuffing work?
+
 We mentioned that credential stuffing is a form of cyberattack that involves an attacker trying to log into a users account using multiple pairs of stolen usernames and passwords. If we break down the word, "stuffing" just refers to the repetitive login attempts.
 
 However, these attackers don't type these credentials out by hand, one by one, and see if they work. They utilise a special automated login bot or script to go through a list of sometimes millions of passwords against a username with the anticipation of being let in - and if they do get let in, they will take over the account, make fraudulent purchases, steal personal information or carry out other malicious activities.
@@ -22,6 +22,7 @@ However, these attackers don't type these credentials out by hand, one by one, a
 While it is possible for a website to use IP and location detection tools to attempt to prevent credential stuffing, it is not a sure fire way to do so. Attackers often use proxies to mask their geographical location and IP address. Nowadays, some attackers utilise AI-driven tools to make it seem as if thousands of users are trying to log in at different times of the day from all over the world. Now that makes a challenge!
 
 ### Where do they get these passwords from?
+
 The success of a "credential stuffer" relies heavily on the availability of valid usernames and passwords. They can obtain these through many sources that are often interconnected - as an example:
 
 1. **Data Breaches**: Large-scale data breaches are a goldmine for attackers. When companies suffer a breach, user credentials can be exposed and subsequently sold or shared on the dark web.
